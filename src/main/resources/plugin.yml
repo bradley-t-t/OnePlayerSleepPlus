@@ -1,0 +1,5 @@
+name: OnePlayerSleepPlus
+version: '1.0'
+main: com.trenton.oneplayersleepplus.OnePlayerSleepPlus
+api-version: '1.21'
+authors: [ Trent ]
