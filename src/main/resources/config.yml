@@ -1,0 +1,47 @@
+# Sleep requirement settings
+sleep_requirement:
+  # Mode for determining sleepers needed: 'percentage' or 'fixed'
+  mode: percentage
+  # Percentage of online players needed to skip night (used if mode is 'percentage')
+  percentage: 50.0
+  # Fixed number of players needed to skip night (used if mode is 'fixed')
+  fixed_players: 1
+
+# Night skip announcement settings
+announce:
+  # Enable/disable broadcasting a message when night is skipped
+  enabled: true
+
+# Action bar display settings
+action_bar:
+  # Enable/disable showing sleep progress in the action bar
+  enabled: true
+
+# Time skip effect settings
+time_skip_effects:
+  # Enable/disable particle effects during time skip
+  particles_enabled: true
+  # Particle type for time skip effect (e.g., PORTAL, ENCHANTMENT_TABLE)
+  particle_type: PORTAL
+  # Number of particles to spawn
+  particle_count: 5
+  # Enable/disable sound effects during time skip
+  sound_enabled: true
+  # Sound type for time skip effect (e.g., BLOCK_PORTAL_AMBIENT)
+  sound_type: BLOCK_PORTAL_AMBIENT
+  # Sound volume (0.0 to 1.0)
+  sound_volume: 0.5
+  # Sound pitch (0.5 to 2.0)
+  sound_pitch: 1.0
+
+# Night skip restriction settings
+night_skip_restriction:
+  # Enable/disable restriction to skip every other night
+  every_other_night: true
+
+# Auto-updater settings
+auto_updater:
+  # Enable/disable automatic update checks
+  enabled: true
+  # Permission required to receive update notifications
+  notify_permission: oneplayersleepplus.update.notify

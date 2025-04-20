@@ -1,0 +1,4 @@
+night_skipped: "&aThe night has been skipped!"
+sleepers_needed: "&e{progress}/{time} players sleeping to skip the night"
+update_available: "&eA new version of OnePlayerSleepPlus is available!"
+night_skip_blocked: "&cLast night was skipped! Wait until tomorrow!"

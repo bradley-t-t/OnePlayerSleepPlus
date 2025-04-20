@@ -1,5 +1,10 @@
 name: OnePlayerSleepPlus
-version: '1.0'
+version: 1.0
 main: com.trenton.oneplayersleepplus.OnePlayerSleepPlus
-api-version: '1.21'
-authors: [ Trent ]
+api-version: 1.21
+authors: [Trent]
+description: Allows configurable percentage or fixed number of players to sleep to skip the night.
+permissions:
+  oneplayersleepplus.update.notify:
+    description: Allows players to receive update notifications for OnePlayerSleepPlus.
+    default: op
